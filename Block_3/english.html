@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+    var english = ["food","bike","apple","do","mean"];
+    var russian = ["еда","велосипед","яблоко","делать","иметь в виду"];
+
+    var words = [
+        ["food","еда"],
+        ["bike","велосипед"],
+        ["apple","яблоко"],
+        ["do","делать"],
+        ["mean","иметь в виду"]
+    ];
+
+
+    while(words.length !=0){
+        var i = parseInt(Math.random() * words.length);
+        var userTranslate = prompt("Как переводиться слово " + words[i][0]);
+        if(userTranslate == words[i][1]){
+            alert("Правильно!");
+            words.splice(i,1);
+        }else{
+            alert("Нет, правильный ответ " + words[i][1]);
+        }
+    }
+
+    alert("Вы запомниливсе слова");
+
+
+    /*
+    alert(words[0]); //"food","еда"
+    alert(words[3][1]); //"делать
+    alert(words[0][5]); //undefined
+    */
+
+</script>
