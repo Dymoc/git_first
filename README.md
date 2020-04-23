@@ -1,5 +1,3 @@
 # git_first
 # test
-
-;kmsa4
-kjnvsd
+# test2
