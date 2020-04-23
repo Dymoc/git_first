@@ -10,39 +10,41 @@
     var m = numbers.pop();
     */
 
+    function compareAnswer(userAnswer, answer){
+        if(userAnswer == answer){
+        alert("Все верно!!!");
+    } else {
+        alert("Не верно, ответ " + numbers[0]);
+    }
+    }
+
+    function getRandomNumber(max){
+        return Math.round(Math.random() * max);
+    }
+
     for(var i = 0; i<5; i++){
-        var randomeNumber = parseInt(Math.random() * 100);
+        var randomeNumber = getRandomNumber(100);
         numbers.push(randomeNumber);
     }
 
     alert("Запомните числа и их порядок: " + numbers);
 
     var userAnswer = +prompt("Каким было первое число?:");
-    if(userAnswer == numbers[0]){
-        alert("Все верно!!!");
-    } else {
-        alert("Не верно, ответ " + numbers[0]);
-    }
+    compareAnswer(userAnswer,numbers[0]);
+
 
 
     userAnswer = +prompt("А последнее?");
     //alert(numbers.length);// последний элемент массива
     // alert(numbers[numbers.length - 1]);
-    if(userAnswer == numbers[numbers.length - 1]){
-        alert("Все верно!!!");
-    } else {
-        alert("Не верно, ответ " + numbers[numbers.length - 1]);
-    }
+
+    compareAnswer(userAnswer,numbers[numbers.length - 1]);
 
 
 
-    var n = parseInt(Math.random() * numbers.length);
+    var n = getRandomNumber(numbers.length - 4);
     userAnswer = +prompt("А как на счет числа по номером " + (n + 1) + "?");
 
-    if(userAnswer == numbers[n]){
-        alert("Все верно!!!");
-    } else {
-        alert("Не верно, ответ " + numbers[n]);
-    }
+    compareAnswer(userAnswer,numbers[n]);
 
 </script>
