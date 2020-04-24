@@ -1,83 +1,81 @@
 <meta charset="utf-8">
 <script type="text/javascript">
-	
-
-var arreyNumber = [];
-var numbers = [];
-var sumFunc = 0;
+    var arreyNumber = [];
+    var numbers = [];
+    var sumFunc = 0;
 
 
-//Массив из чисел по порядку
-	function arrey(n){				
-		for(i = 0;i<n;i++){		 
-		 arreyNumber.push(i+1);
-		 document.write(arreyNumber[i] + "<br>");
-		}
-		 return arreyNumber;
-	}
+    //Массив из чисел по порядку
+    function arrey(n) {
+        for (i = 0; i < n; i++) {
+            arreyNumber.push(i + 1);
+            document.write(arreyNumber[i] + "<br>");
+        }
+        return arreyNumber;
+    }
 
-//Сумма чисел массива
-	function sum(arreyNumber){
-		for (var i = 0; i < arreyNumber.length; i++) {
-			sumFunc = sumFunc + arreyNumber[i];			
-		}
-		document.write("Сумма чисел " + sumFunc);
-	}
+    //Сумма чисел массива
+    function sum(arreyNumber) {
+        for (var i = 0; i < arreyNumber.length; i++) {
+            sumFunc = sumFunc + arreyNumber[i];
+        }
+        document.write("Сумма чисел " + sumFunc);
+    }
 
-//Рандомное число
-	function getRandomNumber(askNumber){
+    //Рандомное число
+    function getRandomNumber(askNumber) {
         return Math.round(Math.random() * askNumber);
     }
 
-//Максимальное число из массива
-    function Max(randomeNumber){
-    	var MaxNumber = randomeNumber[i];
-    	for(var i = 0;i<randomeNumber.length;i++){    		
-    		if(randomeNumber[i]<randomeNumber[i+1]){
-    			MaxNumber = randomeNumber[i+1];    		
-    		}
-    	}
-    	document.write("Максимальное число рандомного массива из " + askNumber + " позиций, будет: " + MaxNumber);
+    //Максимальное число из массива
+    function Max(randomeNumber) {
+        var MaxNumber = randomeNumber[0];
+        for (var i = 0; i < randomeNumber.length; i++) {
+            if (MaxNumber < randomeNumber[i]) {
+                MaxNumber = randomeNumber[i];
+            }
+        }
+        document.write("Максимальное число рандомного массива из " + askNumber + " позиций, будет: " + MaxNumber);
     }
 
-//Минимальное число массива
-    function Min(randomeNumber){
-    	var MinNumber = randomeNumber[i];
-    	for(var i = 0;i<randomeNumber.length;i++){    		
-    		if(randomeNumber[i]>randomeNumber[i+1]){
-    			MinNumber = randomeNumber[i+1];    		
-    		}
-    	}
-    	document.write("Наименьшее число рандомного массива из " + askNumber + " позиций, будет: " + MinNumber);
+    //Минимальное число массива
+    function Min(randomeNumber) {
+        var MinNumber = randomeNumber[0];
+        for (var i = 0; i < randomeNumber.length; i++) {
+            if (MinNumber > randomeNumber[i]) {
+                MinNumber = randomeNumber[i];
+            }
+        }
+        document.write("Наименьшее число рандомного массива из " + askNumber + " позиций, будет: " + MinNumber);
     }
 
-    function Even(randomeNumber){
-    	for(var i = 0;i<randomeNumber.length;i++){
-    		if((randomeNumber[i] % 2) != 0){
-    			randomeNumber.splice[i];
-    		}else{
-    		document.write(randomeNumber[i]);
-    	    }
-    	}
+    function Even(randomeNumber) {
+        for (var i = 0; i < randomeNumber.length; i++) {
+            if ((randomeNumber[i] % 2) != 0 || randomeNumber[i] == 0){
+                randomeNumber.splice[i];
+            } else {
+                document.write(randomeNumber[i] + " ");
+            }
+        }
     }
 
 
-var askNumber = +prompt("Введите число n:");
-arrey(askNumber);
-document.write("<br><br>");
-sum(arreyNumber);
-document.write("<br><br>");
+    var askNumber = +prompt("Введите число n:");
+    arrey(askNumber);
+    document.write("<br><br>");
+    sum(arreyNumber);
+    document.write("<br><br>");
 
-//Наполнение массива рандомными числами, размером заданным пользователем
-		for(var i = 0; i<askNumber; i++){
-		        var randomeNumber = getRandomNumber(askNumber);
-		        numbers.push(randomeNumber);
-		    	}
+    //Наполнение массива рандомными числами, размером заданным пользователем
+    for (var i = 0; i < askNumber; i++) {
+        var randomeNumber = getRandomNumber(askNumber);
+        numbers.push(randomeNumber);
+    }
 
-Max(numbers);
-document.write("<br><br>");
-Min(numbers);
-document.write("<br><br>");
-Even(numbers);
+    Max(numbers);
+    document.write("<br><br>");
+    Min(numbers);
+    document.write("<br><br>");
+    Even(numbers);
 
 </script>
