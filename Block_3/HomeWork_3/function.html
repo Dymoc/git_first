@@ -59,23 +59,25 @@
         }
     }
 
+do{
+    var askNumber = +prompt("Введите число n больше нуля:");
+    }while(isNaN(askNumber) || askNumber == 0);
 
-    var askNumber = +prompt("Введите число n:");
-    arrey(askNumber);
-    document.write("<br><br>");
-    sum(arreyNumber);
-    document.write("<br><br>");
+        arrey(askNumber);
+        document.write("<br><br>");
+        sum(arreyNumber);
+        document.write("<br><br>");
 
-    //Наполнение массива рандомными числами, размером заданным пользователем
-    for (var i = 0; i < askNumber; i++) {
-        var randomeNumber = getRandomNumber(askNumber);
-        numbers.push(randomeNumber);
-    }
+                //Наполнение массива рандомными числами, размером заданным пользователем
+                for (var i = 0; i < askNumber; i++) {
+                    var randomeNumber = getRandomNumber(askNumber);
+                    numbers.push(randomeNumber);
+                }
 
-    Max(numbers);
-    document.write("<br><br>");
-    Min(numbers);
-    document.write("<br><br>");
-    Even(numbers);
+        Max(numbers);
+        document.write("<br><br>");
+        Min(numbers);
+        document.write("<br><br>");
+        Even(numbers);
 
 </script>
