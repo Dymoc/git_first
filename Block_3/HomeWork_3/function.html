@@ -39,7 +39,7 @@ var sumFunc = 0;
     	}
     	document.write("Максимальное число рандомного массива из " + askNumber + " позиций, будет: " + MaxNumber);
     }
-    
+
 //Минимальное число массива
     function Min(randomeNumber){
     	var MinNumber = randomeNumber[i];
@@ -49,6 +49,16 @@ var sumFunc = 0;
     		}
     	}
     	document.write("Наименьшее число рандомного массива из " + askNumber + " позиций, будет: " + MinNumber);
+    }
+
+    function Even(randomeNumber){
+    	for(var i = 0;i<randomeNumber.length;i++){
+    		if((randomeNumber[i] % 2) != 0){
+    			randomeNumber.splice[i];
+    		}else{
+    		document.write(randomeNumber[i]);
+    	    }
+    	}
     }
 
 
@@ -67,6 +77,7 @@ document.write("<br><br>");
 Max(numbers);
 document.write("<br><br>");
 Min(numbers);
-
+document.write("<br><br>");
+Even(numbers);
 
 </script>
