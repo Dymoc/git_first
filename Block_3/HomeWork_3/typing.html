@@ -17,33 +17,27 @@ function getRandomNumber(max) {
     }
 
 function chekText(userText){
-
-	
-
 	if(userText == text){
 		alert("Все верно!\nВы переходите на следующий уровень");
 		level++;		
 	} else {
 		alert("Вы ошиблис. Попробуйте еще раз");
 	}
-
 }
 
-    var level = 1
-    var lettersArr = [["ф","а"],["ы","в"],["о","ж"],["л","д"]];
 
-   
+    var level = 1
+    var lettersArr = [["ф","а"],["ы","в"],["о","ж"],["л","д"]];   
 
 	do{
+		var text = generateText(lettersArr[level - 1], 6);
 
-	var text = generateText(lettersArr[level - 1], 6);
+		alert("Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний — на Л, указательный — на О. Запомните расположение пальцев. Повторяйте за мной");	
 
-	alert("Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний — на Л, указательный — на О. Запомните расположение пальцев. Повторяйте за мной");	
+		var userText = prompt(text);
 
-	var userText = prompt(text);
-
-	chekText(userText);
-}while(true);
+		chekText(userText);
+	}while(true);
 
 
 </script>
