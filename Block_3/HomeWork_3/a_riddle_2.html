@@ -14,19 +14,20 @@
 
 function chekText(userText){
 	if(userText == riddle[numberRiddle][1][0] || userText == riddle[numberRiddle][1][1] || userText == riddle[numberRiddle][1][2]){
-		alert("Все верно!\nВы переходите на следующий уровень");
+		alert("Все верно!");
+		corAnswer++;
 		numberRiddle++;		
 	} else {
-		alert("Вы ошиблис. Попробуйте еще раз");
+		alert("Вы ошиблись. Ответ: " + riddle[numberRiddle][1][0]);
+		numberRiddle++;
 	}
 }
 
-while(true){
-	if(numberRiddle < 3){
+for(i=0;numberRiddle < riddle.length;i++){
+	
 var answer = prompt("Отгадай загадку\n" + riddle[numberRiddle][0]);
 chekText(answer);
 
-}
 }
 
 
