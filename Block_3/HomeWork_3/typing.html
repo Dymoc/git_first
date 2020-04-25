@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	alert("Приветствую тебя в программе по обучению слепой печати");
+
+function generateText(letters, linght){
+	var text = "";
+	for(var i = 0; i < linght; i++){
+		var n = getRandomNumber(letters.length - 1);
+		text = text + letters[n];
+	}
+	return text;
+}
+
+function getRandomNumber(max) {
+        return Math.round(Math.random() * max);
+    }
+
+
+while(true){
+	alert("Положите 4 пальца левой руки - мизинец, безымянный, средний и указательный - на клавиши ф, ы, в, а. Запомните, что буква А находиться под вашим указательным пальцем, а Ф - под мизинцем.\nТеперь неспеша набирайте текст. Постарайтесь не смотреть на клавиатуру");
+
+	var text = generateText(["ф","а"], 6); //фааааффаффа
+	var userText = prompt(text);
+	if(userText == text){
+		alert("Все верно!");
+		break;
+	} else {
+		alert("Вы ошиблис. Попробуйте еще раз");
+	}
+
+}
+
+</script>
