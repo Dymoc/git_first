@@ -1,43 +1,47 @@
 <meta charset="utf-8">
 <script type="text/javascript">
-	
-	alert("Приветствую тебя в программе по обучению слепой печати");
-
-function generateText(letters, linght){
-	var text = "";
-	for(var i = 0; i < linght; i++){
-		var n = getRandomNumber(letters.length - 1);
-		text = text + letters[n];
-	}
-	return text;
-}
-
-function getRandomNumber(max) {
+//Массив букв
+    function generateText(letters, linght) {
+        var text = "";
+        for (var i = 0; i < linght; i++) {
+            var n = getRandomNumber(letters.length - 1);
+            text = text + letters[n];
+        }
+        return text;
+    }
+//Возвращает андомную букву
+    function getRandomNumber(max) {
         return Math.round(Math.random() * max);
     }
+//Проверка ввода от пользователя
+    function chekText(userText) {
+        if (userText == text) {
+            alert("Все верно!\nВы переходите на следующий уровень");
+            level++;
+        } else {
+            alert("Вы ошиблис. Попробуйте еще раз");
+        }
+    }
 
-function chekText(userText){
-	if(userText == text){
-		alert("Все верно!\nВы переходите на следующий уровень");
-		level++;		
-	} else {
-		alert("Вы ошиблис. Попробуйте еще раз");
-	}
-}
 
+    var level = 1 //Уровень
+//Массив участвующих букв
+    var lettersArr = [
+        ["ф", "а"],
+        ["ы", "в"],
+        ["о", "ж"],
+        ["л", "д"]
+    ];
+    alert("Приветствую тебя в программе по обучению слепой печати");
+//Ход игры тренажера
+    do {
+        var text = generateText(lettersArr[level - 1], 6);
 
-    var level = 1
-    var lettersArr = [["ф","а"],["ы","в"],["о","ж"],["л","д"]];   
+        alert("Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний — на Л, указательный — на О. Запомните расположение пальцев. Повторяйте за мной");
 
-	do{
-		var text = generateText(lettersArr[level - 1], 6);
+        var userText = prompt(text);
 
-		alert("Поставьте мизинец левой руки на букву Ф, безымянный палец — на Ы, средний — на В, указательный — на А. Мизинец правой руки на букву Ж, безымянный палец — на Д, средний — на Л, указательный — на О. Запомните расположение пальцев. Повторяйте за мной");	
-
-		var userText = prompt(text);
-
-		chekText(userText);
-	}while(true);
-
+        chekText(userText);
+    } while (true);
 
 </script>
