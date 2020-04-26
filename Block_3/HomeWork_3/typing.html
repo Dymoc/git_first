@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <script type="text/javascript">
-//Массив букв
+    //Массив букв
     function generateText(letters, linght) {
         var text = "";
         for (var i = 0; i < linght; i++) {
@@ -9,11 +9,11 @@
         }
         return text;
     }
-//Возвращает андомную букву
+    //Возвращает андомную букву
     function getRandomNumber(max) {
         return Math.round(Math.random() * max);
     }
-//Проверка ввода от пользователя
+    //Проверка ввода от пользователя
     function chekText(userText) {
         if (userText == text) {
             alert("Все верно!\nВы переходите на следующий уровень");
@@ -25,7 +25,7 @@
 
 
     var level = 1 //Уровень
-//Массив участвующих букв
+    //Массив участвующих букв
     var lettersArr = [
         ["ф", "а"],
         ["ы", "в"],
@@ -33,7 +33,7 @@
         ["л", "д"]
     ];
     alert("Приветствую тебя в программе по обучению слепой печати");
-//Ход игры тренажера
+    //Ход игры тренажера
     do {
         var text = generateText(lettersArr[level - 1], 6);
 
