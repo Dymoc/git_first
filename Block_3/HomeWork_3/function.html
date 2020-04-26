@@ -1,9 +1,8 @@
 <meta charset="utf-8">
 <script type="text/javascript">
-
-var arreyNumber = [];
-var numbers = [];
-var sumFunc = 0;
+    var arreyNumber = [];
+    var numbers = [];
+    var sumFunc = 0;
 
 
     //Массив из чисел по порядку
@@ -29,12 +28,12 @@ var sumFunc = 0;
     }
 
     //Максимальное число из массива
-    function getMaxOfArray(numArray){
+    function getMaxOfArray(numArray) {
         return Math.max.apply(null, numArray);
     }
 
     //Минимальное число массива
-    function getMinOfArray(numArray){
+    function getMinOfArray(numArray) {
         return Math.min.apply(null, numArray);
     }
 
@@ -42,35 +41,35 @@ var sumFunc = 0;
     function Even(randomeNumber) {
         document.write("Четные числа массива: ");
         for (var i = 0; i < randomeNumber.length; i++) {
-            if ((randomeNumber[i] % 2) != 0 || randomeNumber[i] == 0){
+            if ((randomeNumber[i] % 2) != 0 || randomeNumber[i] == 0) {
                 randomeNumber.splice[i];
-            } else {                
+            } else {
                 document.write(randomeNumber[i] + ", ");
             }
         }
     }
 
-    
-    //Просьба пользователя ввести число и проверка на ноль
-    do{
-        var askNumber = +prompt("Введите число n больше нуля:");
-        }while(isNaN(askNumber) || askNumber == 0);
 
-arrey(askNumber);
-document.write("<br><br>");
-sum(arreyNumber);
-document.write("<br><br>");
+    //Просьба пользователя ввести число и проверка на ноль
+    do {
+        var askNumber = +prompt("Введите число n больше нуля:");
+    } while (isNaN(askNumber) || askNumber == 0);
+
+    arrey(askNumber);
+    document.write("<br><br>");
+    sum(arreyNumber);
+    document.write("<br><br>");
 
     //Наполнение массива рандомными числами, размером заданным пользователем
-     for (var i = 0; i < askNumber; i++) {
-          var randomeNumber = getRandomNumber(askNumber);
-            numbers.push(randomeNumber);
-          }        
-  
-document.write("Самое большое число массива " + getMaxOfArray(numbers));        
-document.write("<br><br>");
-document.write("Самое малеькое число массива " + getMinOfArray(numbers)); 
-document.write("<br><br>");
-Even(numbers);
+    for (var i = 0; i < askNumber; i++) {
+        var randomeNumber = getRandomNumber(askNumber);
+        numbers.push(randomeNumber);
+    }
+
+    document.write("Самое большое число массива " + getMaxOfArray(numbers));
+    document.write("<br><br>");
+    document.write("Самое малеькое число массива " + getMinOfArray(numbers));
+    document.write("<br><br>");
+    Even(numbers);
 
 </script>
