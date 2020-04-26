@@ -1,37 +1,45 @@
 <meta charset="utf-8">
 <script type="text/javascript">
-	
-	var corAnswer = 0//Счетчик правильных ответов
+    var corAnswer = 0 //Счетчик правильных ответов
+    var numberRiddle = 0; //Номер загадки
+    //Массив загадок
+    var riddle = [
+        [
+            ["Туда, сюда, обратно - тебе и мне приятно."],
+            ["Качели", "качели", "КАЧЕЛИ"]
+        ],
+        [
+            ["Речка спятила с ума -\nПо домам пошла сама."],
+            ["Водопровод", "водопровод", "ВОДОПРОВОД"]
+        ],
+        [
+            ["Музыкант, певец, рассказчик -\nА всего труба да ящик."],
+            ["Граммофон", "граммофон", "ГРАММОФОН"]
+        ],
+        [
+            ["Ах, не трогайте меня:\nОбожгу и без огня!"],
+            ["Крапива", "крапива", "КРАПИВА"]
+        ]
+    ];
 
-	var numberRiddle = 0;
+    //Анализ загадок и ответа
+    function chekText(userText) {
+        if (userText == riddle[numberRiddle][1][0] || userText == riddle[numberRiddle][1][1] || userText == riddle[numberRiddle][1][2]) {
+            alert("Все верно!");
+            corAnswer++;
+            numberRiddle++;
+        } else {
+            alert("Вы ошиблись. Ответ: " + riddle[numberRiddle][1][0]);
+            numberRiddle++;
+        }
+    }
+    //Игра
+    for (i = 0; numberRiddle < riddle.length; i++) {
+        var answer = prompt("Отгадай загадку\n" + riddle[numberRiddle][0]);
+        chekText(answer);
+    }
 
-	var riddle = 	[[["Туда, сюда, обратно - тебе и мне приятно."],["Качели","качели","КАЧЕЛИ"]],
-				 	[["Речка спятила с ума -\nПо домам пошла сама."],["Водопровод","водопровод","ВОДОПРОВОД"]],
-					[["Музыкант, певец, рассказчик -\nА всего труба да ящик."],["Граммофон","граммофон","ГРАММОФОН"]],
-					[["Ах, не трогайте меня:\nОбожгу и без огня!"],["Крапива","крапива","КРАПИВА"]]];
-
-
-function chekText(userText){
-	if(userText == riddle[numberRiddle][1][0] || userText == riddle[numberRiddle][1][1] || userText == riddle[numberRiddle][1][2]){
-		alert("Все верно!");
-		corAnswer++;
-		numberRiddle++;		
-	} else {
-		alert("Вы ошиблись. Ответ: " + riddle[numberRiddle][1][0]);
-		numberRiddle++;
-	}
-}
-
-for(i=0;numberRiddle < riddle.length;i++){
-	
-var answer = prompt("Отгадай загадку\n" + riddle[numberRiddle][0]);
-chekText(answer);
-
-}
-
-//Конец игры
-	alert("Игра окончена!!!\nВы ответили правильно на " + corAnswer + " загадки");//Сообщение о правильных ответак
-
-
+    //Конец игры
+    alert("Игра окончена!!!\nВы ответили правильно на " + corAnswer + " загадки"); //Сообщение о правильных ответак
 
 </script>
