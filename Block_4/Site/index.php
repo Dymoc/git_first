@@ -24,15 +24,15 @@
 			<p>В этом мне помог IT-портал <a href="https://geekbrains.ru">GeekBrains</a></p>
 
 			<p>На этом сайте вы сможете сыграть в несколько игр, которые я написал: <br>
-			<a href="#">Главная</a>,
-			<a href="#">Загадки</a>,
-			<a href="#">Угадайка</a>
+			<a href="index.html">Главная</a>,
+			<a href="puzzle.html">Загадки</a>,
+			<a href="guess.html">Угадайка</a>
 			</p>
 		</div>
 	</div>
 </div>
 <div class="footer">
-	Copyright &copy; Aleksandr Duhnovskiy
+	Copyright &copy; <?php echo date("")?> Aleksandr Duhnovskiy
 <div>
 
 
