@@ -1,78 +1,79 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<title>Личный сайт студента GeekBrains</title>
-	<link rel="stylesheet" href="style.css">
-	<script type="text/javascript">
+    <meta charset="utf-8">
+    <title>Личный сайт студента GeekBrains</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        var score = 0;
 
-		var score = 0;
+        function checkAnswer(inputId, answers) {
+            var userAnswer = document.getElementById(inputId).value;
+            userAnswer = userAnswer.toLowerCase();
+            for (var i = 0; i < answers.length; i++) {
+                if (userAnswer == answers[i]) {
+                    score++;
+                    break;
+                }
+            }
+        }
 
-		function checkAnswer(inputId, answers){
-			var userAnswer = document.getElementById(inputId).value;
-			userAnswer = userAnswer.toLowerCase();
-			for(var i = 0; i < answers.length; i++){
-				if(userAnswer == answers[i]){
-					score++;
-					break;
-				}
-			}
-		}
+        function checkAnswers() {
 
-		function checkAnswers() {
+            checkAnswer("userAnswer1", ["качели"]);
+            checkAnswer("userAnswer2", ["водопровод", "трубопровод"]);
+            checkAnswer("userAnswer3", ["крапива"]);
 
-			checkAnswer("userAnswer1", ["качели"]);
-			checkAnswer("userAnswer2", ["водопровод", "трубопровод"]);
-			checkAnswer("userAnswer3", ["крапива"]);
+            alert("Вы отгадали " + score + " загадок");
 
-			alert("Вы отгадали " + score + " загадок");
+        }
 
-		}
-
-	</script>
+    </script>
 </head>
+
 <body>
 
-<div class="content">
-	<div class="header">
-		<a href="index.html">Главная</a>
-		<a href="#">Загадки</a>
-		<a href="guess.html">Угадайка</a>
-	</div>
-
-<div class="contentWrap">
     <div class="content">
-        <div class="center">
+        <div class="header">
+            <?php
+    include "menu.php";
+    ?>
 
-			<h1>Игра в загадки</h1>
+            <div class="contentWrap">
+                <div class="content">
+                    <div class="center">
 
-			<div class="box">
+                        <h1>Игра в загадки</h1>
 
-				<p>Туда, сюда, обратно - тебе и мне приятно.</p>
-				<input type="text" id="userAnswer1">
+                        <div class="box">
 
-				<p>Речка спятила с ума -По домам пошла сама.</p>
-				<input type="text" id="userAnswer2">
+                            <p>Туда, сюда, обратно - тебе и мне приятно.</p>
+                            <input type="text" id="userAnswer1">
 
-				<p>Ах, не трогайте меня: Обожгу и без огня!</p>
-				<input type="text" id="userAnswer3">
+                            <p>Речка спятила с ума -По домам пошла сама.</p>
+                            <input type="text" id="userAnswer2">
 
-				<br>
-				<a href="#" onClick="checkAnswers();">Ответить</a>
+                            <p>Ах, не трогайте меня: Обожгу и без огня!</p>
+                            <input type="text" id="userAnswer3">
 
-			</div>
+                            <br>
+                            <a href="#" onClick="checkAnswers();">Ответить</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
 
         </div>
-    </div>
-</div>
-
-
-
-</div>
-<div class="footer">
-	Copyright &copy; <?php echo date("Y")?> Aleksandr Duhnovskiy
-<div>
+        <div class="footer">
+            Copyright &copy; <?php echo date("Y")?> Aleksandr Duhnovskiy
+        </div>
 
 
 </body>
+
 </html>
