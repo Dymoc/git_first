@@ -67,13 +67,13 @@
             </div>
 
 
-
-        </div>
-        <div class="footer">
-            Copyright &copy; <?php echo date("Y")?> Aleksandr Duhnovskiy
         </div>
 
- </div>
+    </div>
+    <div class="footer">
+        Copyright &copy; <?php echo date("Y")?> Aleksandr Duhnovskiy
+    </div>
+
 </body>
 
 </html>
