@@ -73,7 +73,7 @@
             Copyright &copy; <?php echo date("Y")?> Aleksandr Duhnovskiy
         </div>
 
-
+ </div>
 </body>
 
 </html>
