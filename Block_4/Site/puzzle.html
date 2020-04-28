@@ -4,21 +4,59 @@
     <meta charset="utf-8">
     <title>Личный сайт студента GeekBrains</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+
+        score = 0;
+
+        function checkAnswer(inpudId,answer) {
+            var userAnswer = document.getElementById("userAnswer").value;
+            userAnswer = userAnswer.toLocaleLowerCase();
+            for(var i=0;i<answer.length;i++){
+            if (userAnswer = "сон" || userAnswer = "сновидение") {
+                score++;
+                break;
+                }
+            }
+        }
+        function checkAnswers(){
+
+
+        }
+
+    </script>
 </head>
 
 <body>
-    <div class="header">
-        <a href="">Главная</a>
-        <a href="puzzle.html">Загадки</a>
-        <a href="">Угадайка</a>
+    <div class="content">
+        <div class="header">
+            <a href="index.html">Главная</a>
+            <a href="puzzle.html">Загадки</a>
+            <a href="">Угадайка</a>
+        </div>
     </div>
 
-    <h1>Личный сайт студента GeekBrains</h1>
+<div class="contentWrap">
+    <div class="content">
+        <div class="center">
+            <h1>Игра в загадки</h1>
+            <div class="box">
+                <p>Загадка 1</p>
+                <input type="text">
+                <p>Загадка 1</p>
+                <input type="text">
+                <p>Загадка 1</p>
+                <input type="text">
 
+            </div>
 
-<div class="footer">
-    Copyright &copy; Aleksandr Duhnovskiy
+        </div>
+    </div>
 </div>
+
+
+    <div class="footer">
+        Copyright &copy; Aleksandr Duhnovskiy
+    </div>
 
 </body>
 
