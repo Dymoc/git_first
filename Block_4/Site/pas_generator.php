@@ -21,14 +21,15 @@
             var askNumber = document.getElementById("userAnswer").value;
             return askNumber;
   }
+  function write(text) {
+            document.getElementById("info").innerHTML = text;
+        }
     function getPasssword(){
     //Просьба пользователя ввести число и проверка на ноль
     askNumber = readInt();
     if(isNaN(askNumber) || askNumber == 0){
-        write("Введите число n больше нуля:");
-    }else if(askNumber > 0){
-        // hide("button");
-        // hide("userAnswer");
+        write("Необходимо указать положительное число");  
+    }else if(askNumber > 0){     
         document.write("Пароль: ");
         for (var i = 0; i < askNumber; i++) {
         numbers = getRandomNumber(askNumber);
@@ -37,8 +38,6 @@
     }
     }
 }
-
-
 </script>
 </head>
 
