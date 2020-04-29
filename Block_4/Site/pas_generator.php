@@ -20,8 +20,8 @@
     function readInt() {
             var askNumber = document.getElementById("userAnswer").value;
             return askNumber;
-  }
-  function write(text) {
+   }
+   function write(text) {
             document.getElementById("info").innerHTML = text;
         }
     function getPasssword(){
@@ -34,9 +34,8 @@
         for (var i = 0; i < askNumber; i++) {
         numbers = getRandomNumber(askNumber);
         arreyNumbers.push(arrey[numbers]);
-        document.write(arreyNumbers[i] + "<a href="pas_generator.php">Генератор паролей</a>");
-        
-    }
+        document.write(arreyNumbers[i]);                
+    }    
     }
 }
 </script>
