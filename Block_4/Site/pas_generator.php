@@ -34,7 +34,8 @@
         for (var i = 0; i < askNumber; i++) {
         numbers = getRandomNumber(askNumber);
         arreyNumbers.push(arrey[numbers]);
-        document.write(arreyNumbers[i]);
+        document.write(arreyNumbers[i] + "<a href="pas_generator.php">Генератор паролей</a>");
+        
     }
     }
 }
