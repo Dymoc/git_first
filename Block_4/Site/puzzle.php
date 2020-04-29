@@ -6,6 +6,7 @@
     <title>Личный сайт студента GeekBrains</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript">
+        /*
         var score = 0;
 
         function checkAnswer(inputId, answers) {
@@ -28,6 +29,7 @@
             alert("Вы отгадали " + score + " загадок");
 
         }
+        */
 
     </script>
 </head>
@@ -45,6 +47,28 @@
                     <h1>Игра в загадки</h1>
 
                     <div class="box">
+
+                        <?php
+
+                           if(isset($_GET["userAnswer1"]) && isset($_GET["userAnswer2"]) && isset($_GET["userAnswer3"])){
+                            $userAnswer = $_GET["userAnswer1"];
+                            $score = 0;
+                            if(mb_strtolower($userAnswer) == "качели"){
+                                $score++;
+                            }
+                            $userAnswer = $_GET["userAnswer2"];                            
+                            if(mb_strtolower($userAnswer) == "водопровод" || $userAnswer == "трудопровод"){
+                                $score++;
+                            }
+                            $userAnswer = $_GET["userAnswer3"];                            
+                            if(mb_strtolower($userAnswer) == "крапива"){
+                                $score++;
+                            }
+
+
+                            echo "Вы угадали" . $score . " загадок";
+                        }
+                       ?>
 
                         <form method="GET">
 
