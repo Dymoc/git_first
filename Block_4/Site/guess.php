@@ -71,7 +71,6 @@
 </div>
 
 
-
 </div>
 <div class="footer">
 	Copyright &copy; <?php echo date("Y")?> Aleksandr Duhnovskiy
