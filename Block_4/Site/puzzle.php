@@ -35,41 +35,36 @@
 <body>
 
     <div class="content">
-        <div class="header">
-            <?php
+        <?php
     include "menu.php";
     ?>
-            <div class="contentWrap">
-                <div class="content">
-                    <div class="center">
+        <div class="contentWrap">
+            <div class="content">
+                <div class="center">
 
-                        <h1>Игра в загадки</h1>
+                    <h1>Игра в загадки</h1>
 
-                        <div class="box">
+                    <div class="box">
+
+                        <form method="GET">
 
                             <p>Туда, сюда, обратно - тебе и мне приятно.</p>
-                            <input type="text" id="userAnswer1">
+                            <input type="text" name="userAnswer1">
 
                             <p>Речка спятила с ума -По домам пошла сама.</p>
-                            <input type="text" id="userAnswer2">
+                            <input type="text" name="userAnswer2">
 
                             <p>Ах, не трогайте меня: Обожгу и без огня!</p>
-                            <input type="text" id="userAnswer3">
+                            <input type="text" name="userAnswer3">
 
                             <br>
-                            <a href="#" onClick="checkAnswers();">Ответить</a>
-
-                        </div>
+                            <input type="submit" value="Ответ" name="">
+                        </form>
 
                     </div>
                 </div>
             </div>
-
-
-
-
         </div>
-
     </div>
     <div class="footer">
         Copyright &copy; <?php echo date("Y")?> Aleksandr Duhnovskiy
