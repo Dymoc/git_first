@@ -6,30 +6,6 @@
     <title>Личный сайт студента GeekBrains</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript">
-        /*
-        var score = 0;
-
-        function checkAnswer(inputId, answers) {
-            var userAnswer = document.getElementById(inputId).value;
-            userAnswer = userAnswer.toLowerCase();
-            for (var i = 0; i < answers.length; i++) {
-                if (userAnswer == answers[i]) {
-                    score++;
-                    break;
-                }
-            }
-        }
-
-        function checkAnswers() {
-
-            checkAnswer("userAnswer1", ["качели"]);
-            checkAnswer("userAnswer2", ["водопровод", "трубопровод"]);
-            checkAnswer("userAnswer3", ["крапива"]);
-
-            alert("Вы отгадали " + score + " загадок");
-
-        }
-        */
 
     </script>
 </head>
@@ -66,7 +42,7 @@
                             }
 
 
-                            echo "Вы угадали" . $score . " загадок";
+                            echo "Вы угадали " . $score . " загадок";
                         }
                        ?>
 
