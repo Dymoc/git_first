@@ -72,7 +72,7 @@ body {
 }
 
 .content h5 {
-    color:  #242424;
+    color: #242424;
     font-size: 24px;
     text-align: left;
 }
@@ -99,13 +99,13 @@ body {
     margin-bottom: 31px;
 }
 
-.content .box_text a  {
+.content .box_text a {
     color: #40678a;
     font-size: 24px;
     font-weight: 100;
     text-align: center;
     text-decoration: none;
-    padding-right:30px;
+    padding-right: 30px;
 }
 
 
@@ -137,8 +137,8 @@ body {
     background-color: #f5f5f5;
     width: 457px;
     height: 34px;
-    padding-left:10px;
-    font-size:20px;
+    padding-left: 10px;
+    font-size: 20px;
     font-weight: 100;
     margin-bottom: 12px;
 }
@@ -146,21 +146,22 @@ body {
 .content .box a {
     display: block;
     float: left;
-    background-color:  #8cbbd3;
-    color:  #ffffff;
+    background-color: #8cbbd3;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 300;
     text-align: center;
     text-decoration: none;
     margin-top: 30px;
-    padding:11px 51px;
+    padding: 11px 51px;
 }
 
 .content .box a:hover {
     background-color: #5ba1d3;
 }
 
-.footer { /* # == id */
+.footer {
+    /* # == id */
     background-color: #434445;
     width: 100%;
     float: left;
