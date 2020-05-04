@@ -61,7 +61,7 @@
 
                         <p id="info">Введите число n больше нуля:</p>
                         <input type="text" id="userAnswer">
-                        <br>
+                        <br>                        
                         <a href="#" onClick="getPasssword();" id="button">Генерировать</a>
                     </div>
 
