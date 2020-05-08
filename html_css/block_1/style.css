@@ -1,0 +1,39 @@
+.form {
+            margin: 0 0px 20px 0;
+            background: #d9dabb;
+            /* Цвет фона */
+            width: 400px;
+            /* Ширина */
+            height: auto margin: 0 10px 10px 0;
+            /* Отступы */
+            padding: 20px 0px 30px;
+            /* Поля сверху и снизу */
+            text-align: center;
+            /* Выравнивание по центру */
+            display: inline-block;
+            /* Строчно-блочный элемент */
+        }
+
+.form div {
+            display: block;
+            padding: 0px 0px 20px;
+        }
+ .photo {
+            background: #d9dabb;
+            /* Цвет фона */
+            width: 150px;
+            /* Ширина */
+            margin: 0px 10px 0px 0;
+            /* Отступы */
+            padding: 10px 0;
+            /* Поля сверху и снизу */
+            text-align: center;
+            /* Выравнивание по центру */
+            display: inline-block;
+            /* Строчно-блочный элемент */
+        }
+
+.photo img {
+            border: 2px solid #8b8e4b;
+            /* Параметры рамки */
+        }
