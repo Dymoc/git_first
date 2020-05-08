@@ -1,3 +1,22 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.menu{
+     list-style-type: none;
+}
+
+.menu a {
+    color: orange;
+    font-size: 18px;
+    font-style: bold;   
+}
+.map{
+            display: inline-block;
+            width: 25%;
+            vertical-align: middle;
+}
+
 .form {
             margin: 0 0px 20px 0;
             background: #d9dabb;
@@ -18,7 +37,28 @@
             display: block;
             padding: 0px 0px 20px;
         }
- .photo {
+
+.inputText {
+            color: #707000;
+            font-size: 16px;
+            font-style: bold;
+            text-align: center;
+}
+
+.problemText {
+            color: #707000;
+            font-size: 14px;
+            font-style: italic;
+            
+}
+
+img {
+            padding: 2px;
+            background-color: grey;
+
+}
+
+.photo {
             background: #d9dabb;
             /* Цвет фона */
             width: 150px;
@@ -37,3 +77,34 @@
             border: 2px solid #8b8e4b;
             /* Параметры рамки */
         }
+h3 {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #eaeaea;    
+}
+
+.allDis {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.smallDis {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.chara {
+    color: #706010;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-style: bold;
+    list-style-type: square;
+}
+
