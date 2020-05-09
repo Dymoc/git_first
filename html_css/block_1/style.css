@@ -81,7 +81,9 @@ body {
     text-align: center;
     height: 30px;
     width: 260px;
+    text-transform: capitalize;
 }
+
 .email:focus{
     background-color:cornsilk;
     color:chocolate;
