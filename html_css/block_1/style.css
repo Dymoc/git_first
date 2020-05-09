@@ -8,6 +8,7 @@ body {
 }
 .menuPos{
     display: inline-block;
+    vertical-align: middle;
 }
 
 .logo{
@@ -21,16 +22,14 @@ body {
 .menu {
     list-style-type: none;
     display: inline-block;
-    height: 100px;
-    width: 150px;
     margin: 0;
-    padding-left: 0px;
+    padding-left: 20px;
 }
 
 /*сылки в меню*/
 .menu a {
     color: orange;
-    font-size: 18px;
+    font-size: 23px;
     font-style: bold;
     text-decoration:none;
 }
