@@ -16,6 +16,10 @@ body {
     text-decoration:none;
 }
 
+.menu li a:hover{
+    color: blueviolet;
+}
+
 /*адрес и карта*/
 .map {
     display: inline-block;
