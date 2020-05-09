@@ -82,6 +82,10 @@ body {
     height: 30px;
     width: 260px;
 }
+.email:focus{
+    background-color:cornsilk;
+    color:chocolate;
+}
 
 /*поле с описанием предложением*/
 .problemText {
