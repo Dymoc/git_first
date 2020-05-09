@@ -3,9 +3,26 @@ body {
     background-color: #f8f8f8;
 }
 
+.adress{
+    margin-top: -15px;
+   vertical-align: middle;
+    height: 100px;
+    width: 250px;
+   display: inline-block;
+   float: right;
+    font-size: 14px;
+}
+.adress h5{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.adress p{
+    margin-top: 0px;
+}
 
 .logo{
-    display: block;
+    display: inline-block;
     height: 100px;
     width: 140px;
     vertical-align: middle;
