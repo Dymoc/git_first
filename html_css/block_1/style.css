@@ -6,17 +6,25 @@ body {
 .header{
 
 }
+.menuPos{
+    display: inline-block;
+}
 
 .logo{
     display: inline-block;
-    width: 150px;
-    height: 100px;
+    height: 110px;
+    width: 140px;
+    vertical-align: middle;
+    margin: 0px;
 }
-
 /*меню*/
 .menu {
     list-style-type: none;
     display: inline-block;
+    height: 100px;
+    width: 150px;
+    margin: 0;
+    padding-left: 0px;
 }
 
 /*сылки в меню*/
