@@ -2,77 +2,89 @@
 body {
     background-color: #f8f8f8;
 }
+
 /*меню*/
-.menu{
-     list-style-type: none;
+.menu {
+    list-style-type: none;
 }
+
 /*сылки в меню*/
 .menu a {
     color: orange;
     font-size: 18px;
-    font-style: bold;   
+    font-style: bold;
 }
+
 /*адрес и карта*/
-.map{
-            display: inline-block;
-            width: 25%;
-            vertical-align: middle;
+.map {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
 }
+
 /*форма обратной связи*/
 .form {
-            margin: 0 0px 20px 0;
-            background: #d9dabb;            
-            width: 400px;            
-            height: auto margin: 0 10px 10px 0;            
-            padding: 20px 0px 30px;            
-            text-align: center;            
-            display: inline-block;            
-        }
+    margin: 0 0px 20px 0;
+    background: #d9dabb;
+    width: 400px;
+    height: auto margin: 0 10px 10px 0;
+    padding: 20px 0px 30px;
+    text-align: center;
+    display: inline-block;
+}
+
 /*блоки внутри формы*/
 .form div {
-            display: block;
-            padding: 0px 0px 20px;
-        }
+    display: block;
+    padding: 0px 0px 20px;
+}
+
 /*поля Имя и Email внутри формы*/
 .inputText {
-            color: #707000;
-            font-size: 16px;
-            font-style: bold;
-            text-align: center;
-            height: 30px;
-            width: 260px;
+    color: #707000;
+    font-size: 16px;
+    font-style: bold;
+    text-align: center;
+    height: 30px;
+    width: 260px;
 }
+
 /*поле с описанием предложением*/
 .problemText {
-            color: #707000;
-            font-size: 14px;
-            font-style: italic;            
+    color: #707000;
+    font-size: 14px;
+    font-style: italic;
 }
+
 /*рамка на фото без border*/
 img {
-            padding: 2px;
-            background-color: grey;
+    padding: 2px;
+    background-color: grey;
 }
+
 /*стилизация товара на каталожной страничке*/
 .photo {
-            background: #d9dabb;            
-            width: 150px;
-            margin: 0px 10px 0px 0;
-            padding: 10px 0;
-            text-align: center;
-            display: inline-block;
-        }
+    background: #d9dabb;
+    width: 150px;
+    margin: 0px 10px 0px 0;
+    padding: 10px 0;
+    text-align: center;
+    display: inline-block;
+}
+
 /*рамка на фото*/
 .photo img {
-            border: 2px solid #8b8e4b;
-        }
+    border: 2px solid #8b8e4b;
+}
+
 /*заголовки уровня h3*/
 h3 {
     color: black;
     font-size: 18px;
     font-weight: 400;
-    background-color: #eaeaea;    
+    background-color: #eaeaea;
 }
+
 /*полное описание товара*/
 .allDis {
     color: #484343;
@@ -81,6 +93,7 @@ h3 {
     line-height: 24px;
     text-align: left;
 }
+
 /*краткое описание товара*/
 .smallDis {
     color: #707070;
@@ -88,6 +101,7 @@ h3 {
     font-style: italic;
     line-height: 16px;
 }
+
 /*характеристики товара*/
 .chara {
     color: #706010;
@@ -97,4 +111,3 @@ h3 {
     font-style: bold;
     list-style-type: square;
 }
-
