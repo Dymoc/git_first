@@ -169,3 +169,20 @@ h3 {
     line-height: 20px;
     font-style: bold;
 }
+
+.dopTable {
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+}
+
+.dopTable td{
+    border: 1px solid black;
+    width: 70px;
+}
+.dopTable td:first-child{
+    width: 20%;
+}
+.dopTable tr:first-child{
+    height: 50px;
+}
