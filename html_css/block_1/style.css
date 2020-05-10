@@ -49,6 +49,17 @@ body {
     background-color:cornflowerblue;
 }
 
+table{
+
+    border-collapse: collapse;
+    width: 100%;
+
+}
+td{
+    border: 2px solid black;
+    height: 50px;
+}
+
 /*адрес и карта*/
 .map {
     display: inline-block;
