@@ -3,31 +3,33 @@ body {
     background-color: #f8f8f8;
 }
 
-.adress{
+.adress {
     margin-top: -15px;
-   vertical-align: middle;
+    vertical-align: middle;
     height: 100px;
     width: 250px;
-   display: inline-block;
-   float: right;
+    display: inline-block;
+    float: right;
     font-size: 14px;
 }
-.adress h5{
+
+.adress h5 {
     margin-top: 25px;
     margin-bottom: 10px;
 }
 
-.adress p{
+.adress p {
     margin-top: 0px;
 }
 
-.logo{
+.logo {
     display: inline-block;
     height: 100px;
     width: 140px;
     vertical-align: middle;
     margin-left: 50px;
 }
+
 /*меню*/
 .menu {
     list-style-type: none;
@@ -38,26 +40,31 @@ body {
     color: orange;
     font-size: 23px;
     font-style: bold;
-    text-decoration:none;
+    text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.menu a:hover{
-    color:aqua;
+.menu a:hover {
+    color: aqua;
     border-radius: 25px;
-    background-color:cornflowerblue;
+    background-color: cornflowerblue;
 }
 
-table{
+table {
     border-collapse: collapse;
     width: 75%;
     margin: auto;
 }
 
-td{
-    border: 2px solid black;
-    height: 50px;
+td {
+    border: 1px solid black;
+    height: 30px;
+    text-align: center;
+}
+
+td:last-child {
+    width: 75%;
     text-align: center;
 }
 
@@ -96,9 +103,9 @@ td{
     text-transform: capitalize;
 }
 
-.email:focus{
-    background-color:cornsilk;
-    color:chocolate;
+.email:focus {
+    background-color: cornsilk;
+    color: chocolate;
 }
 
 /*поле с описанием предложением*/
@@ -156,10 +163,9 @@ h3 {
 
 /*характеристики товара*/
 .chara {
-    color: #706010;
+    color: #706099;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     font-style: bold;
-    list-style-type: square;
 }
