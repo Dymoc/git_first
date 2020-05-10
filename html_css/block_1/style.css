@@ -50,11 +50,11 @@ body {
 }
 
 table{
-
     border-collapse: collapse;
-    width: 100%;
-
+    width: 75%;
+    margin: auto;
 }
+
 td{
     border: 2px solid black;
     height: 50px;
