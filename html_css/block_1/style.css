@@ -57,19 +57,19 @@ body {
     background-color: cornflowerblue;
 }
 
-.table{
+.table {
     border-collapse: collapse;
     width: 75%;
     margin: auto;
 }
 
-.table   td {
+.table td {
     border: 1px solid black;
     height: 30px;
     text-align: center;
 }
 
-.table  td:last-child {
+.table td:last-child {
     width: 75%;
     text-align: center;
 }
@@ -97,6 +97,8 @@ body {
     display: block;
     padding: 0px 0px 20px;
 }
+
+
 
 /*поля Имя и Email внутри формы*/
 .inputText {
@@ -129,6 +131,14 @@ body {
     padding: 10px 0;
     text-align: center;
     display: inline-block;
+}
+
+.photo img {
+    outline: 2px solid chocolate;
+}
+
+.photo a {
+    text-decoration: none;
 }
 
 .outline {
@@ -173,7 +183,7 @@ h3 {
     font-style: bold;
 }
 
-.upColor > p:first-letter{
+.upColor > p:first-letter {
     text-transform: uppercase;
     color: red;
 }
@@ -184,13 +194,15 @@ h3 {
     text-align: center;
 }
 
-.dopTable td{
+.dopTable td {
     border: 1px solid black;
     width: 70px;
 }
-.dopTable td:first-child{
+
+.dopTable td:first-child {
     width: 20%;
 }
-.dopTable tr:first-child{
+
+.dopTable tr:first-child {
     height: 50px;
 }
