@@ -51,19 +51,19 @@ body {
     background-color: cornflowerblue;
 }
 
-table {
+.table{
     border-collapse: collapse;
     width: 75%;
     margin: auto;
 }
 
-td {
+.table   td {
     border: 1px solid black;
     height: 30px;
     text-align: center;
 }
 
-td:last-child {
+.table  td:last-child {
     width: 75%;
     text-align: center;
 }
