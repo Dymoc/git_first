@@ -121,6 +121,7 @@ body {
     color: #707000;
     font-size: 14px;
     font-style: italic;
+    text-transform: capitalize;
 }
 
 /*стилизация товара на каталожной страничке*/
