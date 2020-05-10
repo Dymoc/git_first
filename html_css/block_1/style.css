@@ -58,6 +58,7 @@ table{
 td{
     border: 2px solid black;
     height: 50px;
+    text-align: center;
 }
 
 /*адрес и карта*/
