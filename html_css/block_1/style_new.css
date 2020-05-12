@@ -1,0 +1,25 @@
+.header {
+    height: 100px;
+    width: 640px;
+    margin: auto;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+    float: left;
+}
+.logo img{
+    margin-top: 0px;
+}
+
+.menu {
+    margin-top: 75px;
+    height: 25px;
+    width: 120px;
+    float: left;
+}
+
+.menu a:first-child{
+    margin-left: 30px;
+}

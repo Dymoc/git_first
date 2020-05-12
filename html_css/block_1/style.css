@@ -2,47 +2,31 @@
 body {
     background-color: #f8f8f8;
 }
-
-/*блок адреса в header*/
-.adress {
-    margin-top: -15px;
-    vertical-align: middle;
+.header {
     height: 100px;
-    width: 250px;
-    display: inline-block;
-    float: right;
-    font-size: 14px;
+    width: 640px;
+    margin: auto;
 }
 
-/*тескт в адресе header*/
-.adress h5 {
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
-/*ткскт в адресе header*/
-.adress p {
-    margin-top: 0px;
-}
-
-/*блок адреса в header*/
 .logo {
-    display: inline-block;
     height: 100px;
-    width: 140px;
-    vertical-align: middle;
-    margin-left: 50px;
+    width: 150px;
+    float: left;
+}
+.logo img{
+    margin-top: 0px;
+    outline: 2px solid grey;
 }
 
-/*рамка на лого*/
-.logo img {
-    padding: 2px;
-    background-color: grey;
-}
-
-/*меню*/
 .menu {
-    list-style-type: none;
+    margin-top: 75px;
+    height: 25px;
+    width: 120px;
+    float: left;
+}
+
+.menu a:first-child{
+    margin-left: 30px;
 }
 
 /*сылки в меню*/
