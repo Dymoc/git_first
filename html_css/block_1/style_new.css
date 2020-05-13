@@ -1,34 +1,53 @@
 .header {
     height: 100px;
-    width: 1000px;
+    width: 80%;
+    min-width: 690px;
     margin: auto;
+    position: relative;
 }
 
 .logo {
     height: 100px;
     width: 150px;
     float: left;
+    margin-top: 10px;
+    margin-left: 25px;
 }
-.logo img{
+
+.logo img {
     margin-top: 0px;
 }
 
 .menu {
-    margin-top: 75px;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    height: auto;
+    width: 550px;
+}
+
+.menu div {
     height: 25px;
     width: auto;
-    border: 1px solid black;
     margin-right: 0px;
     float: left;
 }
-/*
-.menu a{
-    width: 100px;
-    height: 25px;
-    border: 1px solid black;
-
+.menu a {
+    color: orange;
+    font-size: 23px;
+    font-style: bold;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-*/
-.menu a:first-child{
+
+/*подсветка кнопок меню*/
+.menu a:hover {
+    color: aqua;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+
+.menu a:first-child {
     margin-left: 30px;
 }
