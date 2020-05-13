@@ -58,6 +58,10 @@ body {
     margin-left: 30px;
 }
 
+.conteiner{
+    width: 80%;
+    margin: auto;
+}
 
 /*таблица характеристик*/
 .table {
