@@ -2,6 +2,7 @@
 body {
     background-color: #f8f8f8;
 }
+
 .header {
     height: 100px;
     width: 80%;
@@ -36,6 +37,7 @@ body {
     margin-right: 0px;
     float: left;
 }
+
 .menu a {
     color: orange;
     font-size: 23px;
@@ -197,16 +199,17 @@ h3 {
     color: red;
 }
 
-.footer{
+.footer {
     height: 75px;
     background-color: cadetblue;
     text-align: right;
     padding-top: 25px;
 }
 
-.footer  p{
+.footer p {
     margin-right: 15px;
 }
+
 /*Дополнительная таблица*/
 .dopTable {
     border-collapse: collapse;
