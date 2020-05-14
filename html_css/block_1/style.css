@@ -21,6 +21,7 @@ body {
 
 .logo img {
     margin-top: 0px;
+    outline: 2px solid darkgrey;
 }
 
 .menu {
@@ -63,6 +64,26 @@ body {
     margin: auto;
 }
 
+.bay {
+    margin-top: 15px;
+    height: 45px;
+}
+
+.bay input{
+    color: darkorange;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+}
+.bay input:hover{
+    background:darkseagreen;
+    color:aliceblue;    
+}
+
+.bay input:active{
+    background:darkseagreen;
+    color:black;    
+}
 /*таблица характеристик*/
 .table {
     border-collapse: collapse;
@@ -85,8 +106,15 @@ body {
 /*адрес и карта*/
 .map {
     display: inline-block;
+    width: 70%;
+    vertical-align: middle;
+    min-width: 250px;
+}
+.adress {
+    display: inline-block;
     width: 25%;
     vertical-align: middle;
+    min-width: 150px;
 }
 
 /*форма обратной связи*/
@@ -153,11 +181,6 @@ body {
     text-decoration: none;
 }
 
-/*рамка вокруг картинки товара на страничке товара*/
-.outline {
-    outline: 4px solid darkcyan;
-}
-
 /*исчезновение рамки вокруг картинки товара на страничке товара*/
 .outline:hover {
     outline: 0px;
@@ -201,6 +224,11 @@ h3 {
 
 .photoProdukt {
     float: left;
+}
+
+/*рамка вокруг картинки товара на страничке товара*/
+.outline {
+    outline: 4px solid darkcyan;
 }
 
 /*Цвет и размер первой буквы парагрофа на страничке*/
