@@ -165,26 +165,42 @@ body {
     text-transform: capitalize;
 }
 
+.catalog{
+    display: flex;
+    justify-content:center
+}
+
 /*стилизация товара на каталожной страничке*/
 .photo {
     background: #d9dabb;
     width: 150px;
+    min-width: 150px;
     margin: 10px 10px 0px 0;
     padding: 10px 0;
     text-align: center;
     display: inline-block;
 }
+.photo:hover{
+    outline: 3px solid cadetblue;
+}
 
 /*рамка у картинки в каталоге*/
 .photo img {
-    outline: 2px solid chocolate;
+    outline: 2px solid cadetblue;
 }
 
 /*ссылка товара на странице каталоге*/
 .photo a {
-    text-decoration: none;
+    color:cadetblue;
+    font-size: 18px;
+    font-style: bold;
+    text-decoration: none;    
 }
 
+.photo a:hover {
+    color:darkgreen; 
+    font-size: 18px;
+}
 /*исчезновение рамки вокруг картинки товара на страничке товара*/
 .outline:hover {
     outline: 0px;
