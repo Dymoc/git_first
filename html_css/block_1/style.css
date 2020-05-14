@@ -187,7 +187,7 @@ body {
 
 /*рамка у картинки в каталоге*/
 .photo img {
-    outline: 2px solid cadetblue;
+    outline: 1px solid cadetblue;
 }
 
 /*ссылка товара на странице каталоге*/
