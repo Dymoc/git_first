@@ -165,9 +165,9 @@ body {
     text-transform: capitalize;
 }
 
-.catalog{
+.catalog {
     display: flex;
-    justify-content:center
+    justify-content: center
 }
 
 /*стилизация товара на каталожной страничке*/
@@ -180,7 +180,8 @@ body {
     text-align: center;
     display: inline-block;
 }
-.photo:hover{
+
+.photo:hover {
     outline: 3px solid cadetblue;
 }
 
@@ -191,16 +192,17 @@ body {
 
 /*ссылка товара на странице каталоге*/
 .photo a {
-    color:cadetblue;
+    color: cadetblue;
     font-size: 18px;
     font-style: bold;
-    text-decoration: none;    
+    text-decoration: none;
 }
 
 .photo a:hover {
-    color:darkgreen; 
+    color: darkgreen;
     font-size: 18px;
 }
+
 /*исчезновение рамки вокруг картинки товара на страничке товара*/
 .outline:hover {
     outline: 0px;
