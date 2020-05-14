@@ -1,6 +1,6 @@
 /*Ко всему сайту*/
 body {
-    background-color: #f8f8f8;
+    background-color: #C2F56E;
 }
 
 .header {
@@ -41,7 +41,7 @@ body {
 }
 
 .menu a {
-    color: orange;
+    color: #92EC00;
     font-size: 23px;
     font-style: bold;
     text-decoration: none;
@@ -51,9 +51,9 @@ body {
 
 /*подсветка кнопок меню*/
 .menu a:hover {
-    color: aqua;
+    color: #C2F56E;
     border-radius: 25px;
-    background-color: cornflowerblue;
+    background-color: #5F9900;
 }
 
 .menu a:first-child {
@@ -213,7 +213,7 @@ h3 {
     color: black;
     font-size: 18px;
     font-weight: 400;
-    background-color: #eaeaea;
+    background-color: #B6BD2F;
 }
 
 /*полное описание товара*/
@@ -261,7 +261,7 @@ h3 {
 
 .footer {
     height: 75px;
-    background-color: cadetblue;
+    background-color: #5F9900;
     text-align: right;
     padding-top: 25px;
 }
