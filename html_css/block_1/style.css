@@ -23,6 +23,8 @@ body {
 .logo img {
     margin-top: 0px;
     outline: 2px solid darkgrey;
+    height: 128px;
+    width: 140px;
 }
 
 .menu {
@@ -124,9 +126,10 @@ body {
 /*форма обратной связи*/
 .form {
     margin: 0 0px 20px 0;
-    background: #d9dabb;
+    background: #7EB12C	;
     width: 400px;
-    height: auto margin: 0 10px 10px 0;
+    height: auto ;
+    margin: 0 10px 10px 0;
     padding: 20px 0px 30px;
     text-align: center;
     display: inline-block;
@@ -172,7 +175,7 @@ body {
 
 /*стилизация товара на каталожной страничке*/
 .photo {
-    background: #d9dabb;
+    background: #65E080;
     width: 150px;
     min-width: 150px;
     margin: 10px 10px 0px 0;
@@ -192,7 +195,7 @@ body {
 
 /*ссылка товара на странице каталоге*/
 .photo a {
-    color: cadetblue;
+    color: #5F9900;
     font-size: 18px;
     font-style: bold;
     text-decoration: none;
@@ -264,6 +267,7 @@ h3 {
     background-color: #5F9900;
     text-align: right;
     padding-top: 25px;
+    color: darkgreen;
 }
 
 .footer p {
