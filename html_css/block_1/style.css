@@ -126,9 +126,9 @@ body {
 /*форма обратной связи*/
 .form {
     margin: 0 0px 20px 0;
-    background: #7EB12C	;
+    background: #7EB12C;
     width: 400px;
-    height: auto ;
+    height: auto;
     margin: 0 10px 10px 0;
     padding: 20px 0px 30px;
     text-align: center;
@@ -185,7 +185,7 @@ body {
 }
 
 .photo:hover {
-    outline: 3px solid cadetblue;
+    outline: 2px solid darkgreen;
 }
 
 /*рамка у картинки в каталоге*/
@@ -195,20 +195,24 @@ body {
 
 /*ссылка товара на странице каталоге*/
 .photo a {
-    color: #5F9900;
+    color: darkgreen;
     font-size: 18px;
     font-style: bold;
     text-decoration: none;
 }
 
 .photo a:hover {
-    color: darkgreen;
+    color: #5F9900;
     font-size: 18px;
 }
 
 /*исчезновение рамки вокруг картинки товара на страничке товара*/
 .outline:hover {
     outline: 0px;
+}
+
+h1 {
+    font-family: fantasy, 'Times New Roman', serif;
 }
 
 /*заголовки уровня h3*/
