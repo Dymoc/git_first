@@ -3,6 +3,7 @@ body {
     background-color: #C2F56E;
 }
 
+/*Hader*/
 .header {
     background-image: url(img/bamboo_texture3114.jpg);
     height: 150px;
@@ -12,6 +13,7 @@ body {
     position: relative;
 }
 
+/*Logo*/
 .logo {
     height: 100px;
     width: 150px;
@@ -20,6 +22,7 @@ body {
     margin-left: 25px;
 }
 
+/*img in Logo*/
 .logo img {
     margin-top: 0px;
     outline: 2px solid darkgrey;
@@ -27,6 +30,7 @@ body {
     width: 140px;
 }
 
+/*Menu*/
 .menu {
     position: absolute;
     top: 90px;
@@ -35,6 +39,7 @@ body {
     width: 450px;
 }
 
+/* Позиционирование кнопок*/
 .menu div {
     height: 25px;
     width: auto;
@@ -42,6 +47,7 @@ body {
     float: left;
 }
 
+/* Вид кнопок меню*/
 .menu a {
     color: #92EC00;
     font-size: 23px;
@@ -58,20 +64,24 @@ body {
     background-color: #5F9900;
 }
 
+/*Отступ первой кнопки меню*/
 .menu a:first-child {
     margin-left: 35px;
 }
 
+/*Контейнер*/
 .conteiner {
     width: 80%;
     margin: auto;
 }
 
+/*позиция кнопки купить*/
 .bay {
     margin-top: 15px;
     height: 45px;
 }
 
+/*вид кнопки купить*/
 .bay input {
     color: darkorange;
     border-radius: 10px;
@@ -79,11 +89,13 @@ body {
     height: 25px;
 }
 
+/*подсветка кнопки купить при наведении*/
 .bay input:hover {
     background: darkseagreen;
     color: aliceblue;
 }
 
+/*подсветка кнопки купить при нажатии*/
 .bay input:active {
     background: darkseagreen;
     color: black;
@@ -103,6 +115,7 @@ body {
     text-align: center;
 }
 
+/*последнии ячейки таблицы характеристик*/
 .table td:last-child {
     width: 75%;
     text-align: center;
@@ -116,6 +129,7 @@ body {
     min-width: 250px;
 }
 
+/*позиционирование адресса*/
 .adress {
     display: inline-block;
     width: 25%;
@@ -140,8 +154,6 @@ body {
     display: block;
     padding: 0px 0px 20px;
 }
-
-
 
 /*поля Имя и Email внутри формы*/
 .inputText {
@@ -168,6 +180,7 @@ body {
     text-transform: capitalize;
 }
 
+/*позиционирование товаров в каталоге*/
 .catalog {
     display: flex;
     justify-content: center
@@ -184,6 +197,7 @@ body {
     display: inline-block;
 }
 
+/*рамка вокруг карточки товара*/
 .photo:hover {
     outline: 2px solid darkgreen;
 }
@@ -201,6 +215,7 @@ body {
     text-decoration: none;
 }
 
+/*название на карточке товара*/
 .photo a:hover {
     color: #5F9900;
     font-size: 18px;
@@ -211,6 +226,7 @@ body {
     outline: 0px;
 }
 
+/*заголовки уровня h1*/
 h1 {
     font-family: fantasy, 'Times New Roman', serif;
 }
@@ -251,6 +267,7 @@ h3 {
     font-style: bold;
 }
 
+/*обтекание фото товара на страничке товара*/
 .photoProdukt {
     float: left;
 }
@@ -266,6 +283,7 @@ h3 {
     color: red;
 }
 
+/*Footer*/
 .footer {
     height: 75px;
     background-color: #5F9900;
@@ -274,9 +292,19 @@ h3 {
     color: darkgreen;
 }
 
+/*Праграф в футоре*/
 .footer p {
     margin-right: 15px;
 }
+
+
+
+
+
+
+
+
+
 
 /*Дополнительная таблица*/
 .dopTable {
