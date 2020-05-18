@@ -342,3 +342,38 @@ body {
     width: 270px;
     margin-right: 30px;
 }
+
+.mobile_app {
+    margin-top: 120px;
+    background-image: url(img/mobile_app.png);
+    height: 516px;
+}
+
+.mobile_app-text {
+    margin-top: 125px;
+    margin-left: 98px;
+    display: inline-block;
+}
+
+.mobile_app-p {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.mobile_app-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    width: 407px;
+}
+
+.mobile_app-content {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+
+}
