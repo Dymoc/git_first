@@ -137,10 +137,6 @@ body {
     margin-bottom: 0px;
 }
 
-.featured-content {}
-
-.featured-menu {}
-
 .featured-menu-text {
     border-bottom: 1px solid #6c6c6c;
     width: 300px;
@@ -172,17 +168,17 @@ body {
     float: right;
     width: 179px;
     display: inline-block;
-    margin-top: 138px;    
+    margin-top: 138px;
 }
 
-.exlore-text a{
+.exlore-text a {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 24px;
     letter-spacing: 3.6px;
-    
+
 }
 
 .featured-menu-img {
@@ -195,10 +191,10 @@ body {
     height: 270px;
     margin-right: 30px;
     margin-bottom: 120px;
-    
+
 }
 
-.featured-img:hover {   
+.featured-img:hover {
     border: 1px solid #9c9c9c;
     background-color: #ffffff;
     opacity: 0.9;
@@ -207,24 +203,28 @@ body {
 .exclusive {
     position: relative;
 }
+
 .exclusive-left {
-    display: inline-block;    
+    display: inline-block;
     height: 683px;
     width: 683px;
     float: right;
     background-image: url(img/promo-img-left.png);
-        
+
 }
+
 .exclusive-right {
-    display: inline-block;    
+    display: inline-block;
     height: 683px;
     width: 683px;
     background-image: url(img/promo-img-right.png);
 }
+
 .exclusive-text {
     margin-top: 228px;
     margin-left: 50px;
 }
+
 .exclusive-exclusive {
     color: #1e88e5;
     font-size: 18px;
@@ -234,6 +234,7 @@ body {
     letter-spacing: 1.8px;
     line-height: 48px;
 }
+
 .exclusive-h2 {
     color: #212121;
     font-size: 36px;
@@ -241,10 +242,41 @@ body {
     margin-bottom: 24px;
     font-style: bold;
 }
+
 .exclusive-content {
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     width: 374px;
     margin-bottom: 34px;
+}
+
+.trending-menu-text {
+    width: 400px;
+    display: inline-block;
+    margin-top: 120px;
+    text-decoration: none;
+}
+
+.trending-menu-trending {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none
+}
+
+.trending-menu-img {
+    margin-top: 64px;
+}
+
+.trending-line {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-img {
+    height: 370px;
+    width: 370px;
+
 }
