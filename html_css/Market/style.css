@@ -161,17 +161,16 @@ body {
 
 .featured-menu-new {
     color: #6c6c6c;
-
 }
 
-.exlore-text {
+.explore-text {
     float: right;
     width: 179px;
     display: inline-block;
     margin-top: 138px;
 }
 
-.exlore-text a {
+.explore-text a {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -194,12 +193,13 @@ body {
 
 }
 
+/*
 .featured-img:hover {
     border: 1px solid #9c9c9c;
     background-color: #ffffff;
     opacity: 0.9;
 }
-
+*/
 .exclusive {
     position: relative;
 }
@@ -273,6 +273,7 @@ body {
     width: 1170px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .trending-img {
@@ -288,7 +289,7 @@ body {
 }
 
 .slider-hot_deal-text {
-    margin-top: 120px;
+    margin-top: 90px;
     padding-top: 287px;
 }
 
