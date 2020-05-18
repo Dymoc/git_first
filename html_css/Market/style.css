@@ -5,27 +5,25 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+
 }
 
-.clearFix:after{
+.clearFix:after {
     content: "";
     display: table;
     clear: both;
 }
 
 .container {
-    width: 1360px;
+    width: 1366px;
     margin: 0 auto;
 }
 
-.header{
-    padding-left: 98px;
-    padding-right: 98px;
-}
+.header {}
+
 .slider {
     height: 800px;
     background-image: url(img/slider-img.jpg);
-
 }
 
 .menu-list {
@@ -50,7 +48,7 @@ body {
     border-bottom: 3px solid #212121;
 }
 
-.container .slider-trending {
+.slider-trending {
     color: #43a047;
     font-size: 18px;
     font-weight: 700;
@@ -58,7 +56,7 @@ body {
     text-transform: uppercase;
 }
 
-.container .slider-h2 {
+.slider-h2 {
     color: #212121;
     font-size: 62px;
     font-weight: 200;
@@ -66,14 +64,14 @@ body {
     text-transform: uppercase;
 }
 
-.container .slider-content {
+.slider-content {
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
 }
 
-.container .button {
+.button {
     color: #212121;
     font-size: 18px;
     font-weight: 700;
@@ -90,7 +88,8 @@ body {
     text-align: center;
     text-decoration: none;
 }
-.container .circle {
+
+.circle {
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -98,7 +97,7 @@ body {
     border-radius: 50%;
 }
 
-.container .circle-active {
+.circle-active {
     width: 40px;
     height: 40px;
     background-color: #212121;
