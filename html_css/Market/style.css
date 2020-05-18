@@ -301,5 +301,37 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1.8px;
+}
 
+.ofert {
+    height: 570px;
+    width: 570px;
+    display: inline-block;
+}
+
+.ofert-left {
+    background-image: url(img/ofert.png);
+    margin-top: 120px;
+    height: 570px;
+    width: 570px;
+    display: inline-block;
+    float: left;
+}
+
+.ofert-text {
+    margin-top: 186px;
+    margin-left: 30px;
+}
+
+.ofert-right {
+    display: inline-block;
+    height: 570px;
+    width: 570px;
+    margin-top: 120px;
+}
+
+.ofert-right a img {
+    display: inline-block;
+    height: 270px;
+    width: 270px;
 }
