@@ -280,3 +280,23 @@ body {
     width: 370px;
 
 }
+
+.slider-hot_deal {
+    height: 800px;
+    background-image: url(img/hot_deal.png);
+    position: relative;
+}
+
+.slider-hot_deal-text {
+    margin-top: 120px;
+    padding-top: 287px;
+}
+
+.slider-hot_ideal-p {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+
+}
