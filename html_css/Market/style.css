@@ -320,7 +320,7 @@ body {
 }
 
 .ofert-text {
-    margin-top: 186px;
+    margin-top: 160px;
     margin-left: 30px;
 }
 
@@ -350,7 +350,7 @@ body {
 }
 
 .mobile_app-text {
-    margin-top: 125px;
+    margin-top: 110px;
     margin-left: 98px;
     display: inline-block;
 }
@@ -368,12 +368,134 @@ body {
     font-size: 62px;
     font-weight: 100;
     text-transform: uppercase;
-    width: 407px;
+    width: 480px;
+    margin-top: 18px;
+    margin-left: 7px;
 }
 
 .mobile_app-content {
     color: #6c6c6c;
     font-size: 22px;
     font-weight: 300;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
 
+.mobile_app_img a {
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    height: 384px;
+    width: 1366px;
+}
+
+.footer-content {
+    padding-top: 120px;
+}
+
+
+
+.contact > ul {
+    list-style-type: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+
+
+}
+
+.contact li {
+    margin-bottom: 24px;
+}
+
+.footer_p {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.contact > .footer_p {
+    margin-bottom: 24px;
+}
+
+.first_ul {
+    margin-right: 103px;
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.second_ul {
+    float: right;
+    margin-top: 25px;
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.info_ul a {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+
+.info {
+    margin-left: 80px;
+}
+
+.info_ul {
+    display: flex;
+}
+
+.info li {
+    margin-bottom: 10px;
+}
+
+.send {
+    margin-left: 78px;
+}
+
+.send_p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+
+.send > .footer_p {
+    margin-bottom: 24px;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.send input {
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    background-color: #ffffff;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer_down {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footer_down_p {
+    margin-top: 10px;
 }
