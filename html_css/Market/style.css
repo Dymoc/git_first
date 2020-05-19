@@ -222,7 +222,7 @@ body {
 }
 
 .exclusive-text {
-    margin-top: 228px;
+    margin-top: 190px;
     margin-left: 50px;
 }
 
@@ -292,7 +292,7 @@ body {
 
 .slider-hot_deal-text {
     margin-top: 90px;
-    padding-top: 287px;
+    padding-top: 250px;
 }
 
 .slider-hot_ideal-p {
@@ -476,13 +476,18 @@ body {
 }
 
 .send input {
-    width: 370px;
+    width: 350px;
     height: 48px;
     border: 1px solid #d9dee1;
     background-color: #ffffff;
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
+    background-image: url(img/mail.png);
+    background-repeat: no-repeat;
+    background-position: 335px;
+    outline: none;
+    padding-left: 20px
 }
 
 .footer_down {
