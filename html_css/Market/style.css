@@ -173,7 +173,6 @@ body {
 
 .explore-text {
     float: right;
-    width: 179px;
     display: inline-block;
     margin-top: 138px;
 }
@@ -548,6 +547,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    width: 1170px;
 }
 
 .footer_down_p {
