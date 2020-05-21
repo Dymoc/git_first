@@ -180,8 +180,8 @@ body {
 
 .explore-text:hover {
     font-weight: 700;
-    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.20);
-    border-radius: 25px;
+
+    letter-spacing: 3.6px;
 }
 
 .circle_futured {
@@ -225,7 +225,6 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 24px;
-    letter-spacing: 3.6px;
     text-decoration: none;
 }
 
@@ -234,12 +233,20 @@ body {
     margin-top: 50px;
     justify-content: space-between;
 }
+.featured-menu-img:hover .featured-img-active{
+    display: block;
+}
 
+.featured-menu-img:hover .featured-img{
+    display: none;
+}
 .featured-img-active {
     border: 1px solid #9c9c9c;
     background-color: #ffffff;
     opacity: 0.9;
+    display: none;
 }
+
 
 .featured-img {
     width: 270px;
@@ -247,6 +254,7 @@ body {
     margin-bottom: 120px;
     position: relative;
 }
+
 
 .exclusive {
     position: relative;
