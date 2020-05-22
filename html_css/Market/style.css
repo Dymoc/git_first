@@ -232,18 +232,18 @@ body {
     margin-top: 50px;
     justify-content: space-between;
 }
-.featured-menu-img:hover .featured-img-active{
+
+.featured-menu-img:hover .featured-img-active {
     display: block;
 }
 
-.featured-menu-img:hover .featured-img{
-    display: none;
-}
+
 .featured-img-active {
     border: 1px solid #9c9c9c;
     background-color: #ffffff;
     opacity: 0.9;
     display: none;
+    position: absolute;
 }
 
 
