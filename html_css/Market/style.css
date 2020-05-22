@@ -5,7 +5,6 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .clearFix:after {
@@ -182,8 +181,11 @@ body {
 
 .explore-text:hover {
     font-weight: 700;
-
     letter-spacing: 3.6px;
+    background-image: url(img/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 175px 5px;
+    padding-right: 20px;
 }
 
 .circle_futured {
