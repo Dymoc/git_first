@@ -553,6 +553,7 @@ body {
 
 .send {
     margin-left: 78px;
+    position: relative;
 }
 
 .send_p {
@@ -571,7 +572,6 @@ body {
 }
 
 .send input {
-    width: 350px;
     height: 48px;
     border: 1px solid #d9dee1;
     background-color: #ffffff;
@@ -584,6 +584,22 @@ body {
     outline: none;
     padding-left: 20px
 }
+
+.mail {
+    display: flex;
+    width: 350px;
+    float: left;
+    position: relative;
+}
+
+.mail_submit {
+    width: 45px;
+    position: absolute;
+    z-index: 1;
+    left: 325px;
+    opacity: 0;
+}
+
 
 .footer_down {
     color: #6c6c6c;
