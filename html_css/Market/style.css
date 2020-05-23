@@ -625,7 +625,7 @@ body {
     width: 647px;
     display: flex;
     justify-content: space-between;
-    margin-top: 71px;
+    margin-top: 65px;
 }
 
 .dop_menu_products a {
@@ -652,4 +652,11 @@ body {
 .dop_menu_products a:hover {
     color: #212121;
     border-bottom: 1px solid #6c6c6c;
+}
+
+.roll {
+    width: 42px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
