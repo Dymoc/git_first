@@ -660,3 +660,11 @@ body {
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.header_products p {
+    margin-top: 220px;
+    margin-left: 3px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 300;
+}
