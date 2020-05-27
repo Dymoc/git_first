@@ -673,18 +673,31 @@ body {
     margin-top: 70px;
     margin-bottom: 120px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
+
 .contact_block {
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
     width: 370px;
     height: 370px;
-    border: 1px solid black;
     float: right;
 }
 
-.contact_block_img{
+.contact_block_img {
     width: 38px;
     height: 38px;
     margin: 0 auto;
     margin-top: 48px;
+}
+
+.contact_h2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    text-transform: uppercase;
+}
+.contact_text {
 }
