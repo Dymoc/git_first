@@ -672,8 +672,9 @@ body {
     margin-top: 70px;
     margin-bottom: 120px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
+
 .contact_block {
     width: 370px;
     height: 370px;
@@ -681,9 +682,43 @@ body {
     float: right;
 }
 
-.contact_block_img{
+.contact_block_img {
     width: 38px;
     height: 38px;
     margin: 0 auto;
     margin-top: 48px;
+}
+
+.contact_h2 {
+    width: 137px;
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 20px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact_text {
+    width: 271px;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contact_info {
+    margin-top: 2px;
+    width: 271px;
+    font-weight: 700;
+    color: #212121;
+}
+
+.contact_adress {
+    margin-top: 3px;
+    width: 280px;
+    font-weight: 300;
 }
