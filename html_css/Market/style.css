@@ -21,6 +21,7 @@ body {
 .container {
     width: 1366px;
     margin: 0 auto;
+    min-height: calc(100vh);
 }
 
 .header {
@@ -484,10 +485,16 @@ body {
     margin-right: 10px;
 }
 
+.clr {
+    height: 384px;
+}
+
 .footer {
     background-color: #f7f7f7;
     height: 384px;
     width: 1366px;
+    margin: 0 auto;
+    margin-top: -387px;
 }
 
 .footer-content {
