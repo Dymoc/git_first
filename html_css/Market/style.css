@@ -13,6 +13,10 @@ body {
     clear: both;
 }
 
+.clr {
+    min-height: 384px;
+}
+
 .padding-site {
     padding-left: 98px;
     padding-right: 98px;
@@ -21,6 +25,7 @@ body {
 .container {
     width: 1366px;
     margin: 0 auto;
+    min-height: calc(100vh);
 }
 
 .header {
@@ -490,6 +495,8 @@ body {
     width: 1366px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: -348px;
+    clear: both;
 }
 
 .footer-content {
