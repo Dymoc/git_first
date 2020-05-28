@@ -488,6 +488,8 @@ body {
     background-color: #f7f7f7;
     height: 384px;
     width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-content {
@@ -689,27 +691,20 @@ body {
     height: 38px;
     margin: 0 auto;
     margin-top: 48px;
+    margin-bottom: 50px;
 }
 
 .contact_h2 {
-<<<<<<< HEAD
     color: #212121;
+    width: 137px;
+    margin: 0 auto;
+    margin-top: 34px;
     font-size: 22px;
     font-weight: 700;
     line-height: 29.88px;
     text-transform: uppercase;
 }
-.contact_text {
-=======
-    width: 137px;
-    margin: 0 auto;
-    margin-top: 34px;
-    margin-bottom: 20px;
-    color: #212121;
-    font-size: 22px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
+
 
 .contact_text {
     width: 271px;
@@ -729,8 +724,7 @@ body {
 }
 
 .contact_adress {
-    margin-top: 3px;
-    width: 280px;
+    margin-top: 4px;
     font-weight: 300;
->>>>>>> origin/master
+    width: 300px;
 }
