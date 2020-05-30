@@ -737,5 +737,131 @@ body {
 }
 
 .menu_deails {
-    float: right
+    width: 1366px;
+    height: 70px;
+    background-color: #f4f4f4;
+    margin-top: 25px;
+}
+
+.menu_deails ul {
+    width: 647px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu_deails li {
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.menu_deails a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.all a {
+    color: #212121;
+}
+
+.menu_deails a:hover {
+    color: #212121;
+}
+
+.contain_dealis_img {
+    width: 570px;
+    height: 671px;
+    margin-top: 72px;
+}
+
+.contain_dealis_img_up {}
+
+.contain_dealis_img_duwn {
+    margin-left: 150px;
+}
+
+.contain_dealis_offert {
+    float: right;
+    height: 552px;
+    width: 510px;
+    margin-top: -650px;
+}
+
+.contain_dealis_offert_h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 150px;
+    margin-bottom: 24px;
+}
+
+.slider-hot_ideal-p_dealist {
+    margin-left: 220px;
+    margin-bottom: 35px;
+}
+
+.contain_dealis_offert_price {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48.02px;
+    margin-left: 150px;
+    margin-bottom: 35px;
+}
+
+.contain_dealis_offert_price_znak {
+    font-size: 48px;
+}
+
+.contain_dealis_offert_price_price {
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.dealis_bottom {
+    height: 71px;
+    width: 510px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    margin-bottom: 35px;
+}
+
+.dealis_bottom a {
+    color: #ffffff;
+    width: 510px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.01px;
+    text-transform: uppercase;
+    margin-left: 180px;
+    margin-top: 10px;
+    line-height: 3;
+    text-decoration: none;
+
+}
+
+.dealis_bottom:hover {
+    background-image: url(img/arrow_buttom.png);
+    background-repeat: no-repeat;
+    background-position: 360px 20px;
+}
+
+.dealis_bottom:hover a {
+    margin-left: 160px;
+    letter-spacing: 4.4px;
+}
+
+.dealis_text {
+    font-size: 16.5px;
+    line-height: 24px;
+}
+
+.dealis_text p {
+    margin-bottom: 15px;
 }
