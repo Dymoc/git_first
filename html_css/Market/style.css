@@ -17,6 +17,10 @@ body {
     min-height: 350px;
 }
 
+input::-ms-clear {
+    display: none;
+}
+
 .padding-site {
     padding-left: 98px;
     padding-right: 98px;
@@ -175,6 +179,10 @@ body {
 
 .featured-menu-new {
     color: #6c6c6c;
+}
+
+.featured-menu-new:hover {
+    color: #212121;
 }
 
 .explore-text {
