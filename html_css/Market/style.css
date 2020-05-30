@@ -408,9 +408,8 @@ body {
 }
 
 .ofert {
-    height: 570px;
-    width: 570px;
-    display: inline-block;
+    display: flex;
+    position: relative;
 }
 
 .ofert-left {
@@ -419,7 +418,6 @@ body {
     height: 570px;
     width: 570px;
     display: inline-block;
-    float: left;
     margin-right: 30px;
 }
 
